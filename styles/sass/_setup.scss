@@ -16,6 +16,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
     line-height: 32px;
+    font-weight: 300;
+    background: #0c1423;
+    color: white;
 }
 
 .wrapper {
@@ -37,5 +40,15 @@ h4,
 button {
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
+}
 
+h3 {
+    letter-spacing: 1px;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
