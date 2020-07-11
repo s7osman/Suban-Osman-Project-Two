@@ -22,7 +22,7 @@
         <h1 class="blog-title">Blog</h1>
     </header>
     <main>
-        <div class="topHalf">
+        <section class="topHalf">
 
             <aside>
                 <div class="side-whale-image">
@@ -36,10 +36,10 @@
                     <div class="bottom-info">
                         <h4>recent posts</h4>
                         <ul>
-                            <l>Lorem ipsum dolor sit.</l>
-                            <l>Lorem ipsum dolor sit.</l>
-                            <l>Lorem ipsum dolor sit.</l>
-                            <l>Lorem ipsum dolor sit.</l>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
                         </ul>
                     </div>
                 </div>
@@ -49,58 +49,59 @@
                     <div class="article-image">
                         <img src="./assets/blog-post-image.jpg" alt="coral">
                     </div>
-                    <div class="article-main-text">
+                    <div class="article-main-text wrapper">
                         <h2>discovering new species</h2>
                         <p>Monday May 4th 2019 by Dieula</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium ipsum soluta, accusantium hic magnam architecto odio quidem temporibus incidunt quis, assumenda ullam cum asperiores! Laudantium quaerat nemo animi omnis reprehenderit fuga fugiat magnam suscipit, ab, dignissimos autem! Dignissimos exercitationem dolor necessitatibus eius repellat delectus rem, deserunt, neque, consectetur amet aspernatur adipisci qui at? Est tempora eaque aliquam. Ipsum sint ducimus odit suscipit ipsa iste doloremque neque laboriosam nulla, maiores eum aliquam aspernatur, illo cum vel eaque, recusandae consequuntur earum perspiciatis tempora nostrum officiis eius? Similique reiciendis a omnis fugit vero perferendis ratione dignissimos vitae quas nihil. Ratione, deserunt iste? Non, nostrum explicabo unde voluptas illo eos sint aliquid modi maxime hic iusto dolore, consequuntur sunt natus quasi! Deleniti veniam ipsam, distinctio modi est minima blanditiis sunt ab eum voluptatum dolore dolorem libero ut. Eum assumenda dolorum, officia consequatur doloribus esse, culpa qui, expedita quam in sit. Odio non, pariatur deserunt beatae obcaecati dolore magnam rem quia excepturi voluptates qui ea id nemo cum consequatur reprehenderit blanditiis, placeat alias, neque nihil? Iste distinctio voluptas nam nesciunt odio nostrum laborum suscipit voluptatibus odit eaque doloribus possimus nihil, sint facere. Accusantium sunt illo earum aliquam, labore architecto quod aut odit quasi. Sint id, minus quidem impedit similique quia aut reprehenderit eveniet animi tempora, quaerat non accusamus eum, earum molestias possimus pariatur iure? Sint facilis consequuntur in ratione labore sunt praesentium quis inventore accusamus.</p>
                     </div>
                 </div>
             </article>
-        </div>
-            
+        </section>
+        <section class="comment-container wrapper">
+
             <div class="comments">
-                <div class="comment-one">
-                    <div class="comment-title">
-                        <h3>Comments</h3>
-                    </div>
-                    <div class="comment-image">
-                        <img src="./assets/comment-1.jpg" alt="">
-                    </div>
-                    <div class="comment-text">
-                        <p>Tuesday October 9th 2018, by Jeremy</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aspernatur ratione ullam porro sequi nisi expedita ex optio, adipisci deserunt quia neque aut alias illum sint maiores, corrupti debitis cumque?</p>
-                    </div>
+                <h4>Comments</h4>
+            </div>    
+            <div class="comment-one">
+                <div class="comment-image">
+                    <img src="./assets/comment-1.jpg" alt="">
+                </div>
+                <div class="comment-text">
+                    <p>Tuesday October 9th 2018, by Jeremy</p>
+                    <p class="commenters">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aspernatur ratione ullam porro sequi nisi expedita ex optio.</p>
+                </div>
                 </div>
                 <div class="comment-two">
                     <div class="comment-image-two">
                         <img src="./assets/comment-2.jpg" alt="">
                     </div>
-                    <div class="comment-text-2">
+                    <div class="comment-text-two">
                         <p>Wednesday December 10th 2018, by Julia</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aspernatur ratione ullam porro sequi nisi expedita ex optio, adipisci deserunt quia neque aut alias illum sint maiores, corrupti debitis cumque?</p>
+                        <p class="commenters">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aspernatur ratione ullam porro sequi nisi expedita ex optio./p>
                     </div>
                 </div>
             </div>
             <div class="post-comment">
                 <div class="comment-name">
                     <form action="">
-                        <label for="userName" class="visuallyHidden">Name</label>
+                        <label for="userName" class="visuallyHidden"></label>
                         <input type="text" id="userName" placeholder="Name">
-                        <label for="email" class="visuallyHidden">Email</label>
-                        <input type="email" id="email" placeholder="email">
+                        <label for="email" class="visuallyHidden"></label>
+                        <input type="email" id="email" placeholder="Email Address">
                     </form>
                 </div>
                 <div class="comment-text-area">
                     <form action="">
-                        <textarea name="specialInstructions" cols="30" rows="10" placeholder="write text here"></textarea>
+                        <textarea name="specialInstructions" cols="56" rows="10" placeholder="Comment"></textarea>
                     </form>
+                    <button><a href="">Post Comment</a></button>
                 </div>
-                <button type="submit">Post Comment</button>
             </div>
-    </main>
-    <footer>
+        </section>
+        </main>
+        <footer>
             <p><a href="">Copyright &copy; Made at Juno College 2020</a></p>
-    </footer>
+        </footer>
         
     </body>
     </html>

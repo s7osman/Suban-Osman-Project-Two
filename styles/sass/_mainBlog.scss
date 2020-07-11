@@ -6,7 +6,9 @@ aside {
 .whale-info {
     display: flex;
     flex-direction: column;
-    width: 35%
+    margin-left: 25px;
+    background: #0F614E;
+    width: 65%;
 }
 .side-whale-image {
     padding-top:50px;
@@ -17,6 +19,11 @@ aside {
     box-shadow: 25px 100px #0F614E;
 }
 
+.bottom-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 aside p,
 aside ul,
@@ -35,6 +42,11 @@ article {
     width: 84%;
     position: relative;
 }
+
+.bottom-info ul {
+    margin-left: 34px;
+}
+
 
 .article-image img {
     width: 100%;
@@ -58,4 +70,107 @@ article {
 .discovery {
     position: absolute;
     top: -280px;
+}
+
+.topHalf {
+    padding-bottom: 500px;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+
+}
+
+.comments h4 {
+    margin-left: 90px;
+}
+
+.comment-one {
+    margin-bottom: 40px;
+}
+.comment-one, 
+.comment-two {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -124px
+}
+
+.comment-text,
+.comment-text-two {
+    width: 35%;
+    margin-left: 25px;
+}
+
+.comment-text p,
+.comment-text-two p{
+    margin-top: 0;
+}
+
+.commenters {
+    margin-top: 5px;
+}
+
+.comment-two {
+    margin-bottom: 30px;
+}
+
+.comment-name {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.comment-name input {
+    background-color: #0C1423;
+    border: none;
+    border-bottom: 1px solid #86E0F9;
+    color: white;
+    margin-left: 5px;
+    width: 264px;
+}
+
+.comment-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.comment-text-area form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea {
+    background: #0C1423;
+    border: 1px solid #86E0F9;
+    color: white;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.comment-text-area button {
+    width: 50%;
+    margin-left: 541px;
+    background: #0F614E;
+    border: 1px solid #0F614E;
+    color: white;
+}
+
+.comment-text-area button:hover,
+.comment-text-area button:focus {
+    background: #86E0F9;
+    border: 1px solid #86E0F9;
+}
+
+
+
+.comment-container {
+    margin-bottom: 40px;
 }
