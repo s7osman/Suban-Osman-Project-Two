@@ -27,6 +27,11 @@
     padding: 5px 8px;
 }
 
+.under-the-sea button:hover{
+    background-color: #0F614E;
+    border: 2px solid #0F614E;
+}
+
 .under-the-sea a {
     color: #0c1423;
     padding: 5px 5px;
@@ -116,6 +121,16 @@
     padding: 5px 8px;
 }
 
+.new-additions-container button:hover {
+    background-color: #86E0F9;
+    border: 2px solid #86E0F9;
+}
+
+.new-additions-container a:hover {
+    color: #0c1423;
+
+}
+
 .fas {
     background: #86E0F9;
     color: #0c1423;
@@ -123,6 +138,11 @@
     border-radius: 50%;
 }
 
+.fas:hover {
+    background: #0c1423;
+    color: #0F614E;
+    border: 10px solid #0c1423
+}
 
 
 .socials {
@@ -194,6 +214,13 @@ h4 {
     border: 2px solid #86E0F9;
     padding: 5px 8px;
 }
+
+.month-profile-text button:hover {
+    background: #0F614E;
+    border: 2px solid #0F614E
+}
+
+
 
 .month-profile-text a {
     color: #0c1423;
