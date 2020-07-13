@@ -1,6 +1,13 @@
+// Global 
 @import 'setup';
-@import 'header';
-@import 'mainIndex';
 @import 'variables';
+
+// HEADER DESIGNS 
+@import 'header';
 @import 'headerBlog';
+@import 'contactHeader';
+
+// MAIN CONTENT
+@import 'mainIndex';
 @import 'mainBlog';
+@import 'mainContact';

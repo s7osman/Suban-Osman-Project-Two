@@ -1,0 +1,225 @@
+.contact-header {
+    background: url("../assets/contact-header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.contact-title h1 {
+    font-size: 5rem;
+}
+
+form,
+.form-container {
+    border: 2px solid #0F614E;
+    background: #0F614E;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 61%;
+    padding: 20px 0;
+    padding-left: 31px;
+    box-shadow: -32px 30px #86E0F9;
+}
+
+.form-name {
+    margin-right: 45px;
+}
+input[type=text],
+input[type=email],
+select {
+    height: 48px;
+    padding: 0 13px;
+    width: 43%;
+    margin: 10px 0;
+    border:0;
+    border-bottom: 2px solid #86E0F9;
+    color: white;
+    background: #0F614E;
+}
+
+textarea {
+    border:0;
+    border: 2px solid #86E0F9;
+    color: white;
+    background: #0F614E;
+    resize: none;
+    margin: 20px 0;
+}
+
+textarea:hover,
+textarea:focus, {
+    border: 2px solid #0C1423;
+}
+
+input[type=text]:hover,
+input[type=email]:hover {
+    border-bottom: 2px solid #0C1423;
+}
+
+button {
+    background: #0C1423;
+    border: 1px solid #0C1423;
+    color: white;
+    width: 90%;
+    height: 45px;
+    text-transform: uppercase;
+}
+
+button:hover,
+button:focus {
+    background: #86E0F9;
+    border: 1 solid #86E0F9;
+    color: #0C1423;
+}
+
+.contact-container {
+    position: relative;
+}
+
+.contact-title,
+.form-container {
+    position: absolute;
+}
+
+.contact-title {
+    top: -380px;
+    left: 390px;
+}
+
+.form-container {
+    top: -272px;
+    right: 99px;
+}
+
+
+
+//
+
+div ul {
+    list-style: none;
+    padding: none;
+    margin:none;
+}
+
+.social-icons ul {
+    display: flex;
+    padding: 0
+}
+
+i {
+    color: white;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.address p{
+    padding: 0;
+    margin: 3px;
+    line-height: 20px;
+}
+
+aside {
+    padding: 98px 0;
+    margin-left: 61px;
+    padding: 197px 0 99px 0;
+
+}
+
+.info-email h2 {
+    font-size: 1.25rem;
+}
+
+
+.side-panel {
+    margin-bottom: 120px;
+    
+}
+
+
+
+
+
+
+
+
+// .contact-main {
+//     display: flex;
+// }
+
+// .contact-container {
+//     display: flex;
+//     flex-direction: column;   
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+// }
+
+// .social-icons ul {
+//     display: flex;
+//     list-style: none;
+// }
+
+// .social-icons ul li {
+//     margin-right: 15px;
+//     font-size: 1.59rem;
+// }
+
+// .social-icons,
+// .info-email {
+//     margin-bottom: 15px;
+// }
+
+// .address {
+//     margin-top: 15px;
+// }
+
+// // .contact-title {
+// //     width:100%;
+// //     position: absolute;
+// //     top: -400px;
+// //     right: 40px;
+// //     width: 274%;
+// // }
+
+// // .contact-container-2 {
+// //     position: relative;
+// // }
+
+// // .green-form form {
+// //     background: #0F614E;
+// // }
+
+// // .green-form,
+// // textarea{
+// //     background: #0F614E;
+// // }
+
+// // textarea,
+// // .green-form input {
+// //     background: #0F614E;
+// // }
+
+// // .green-form {
+// //     width: 151%;
+// //     height: 119%;
+// //     position: absolute;
+// //     top: -264px;
+// //     right: 600px;
+
+// // }
+
+
+
+
+
+
+// // font-family: 'Barlow', sans-serif;
+// // font-family: 'Lato', sans-serif;
+// // COLOR: 
+// // ROBIN EGG BLUE 86E0F9
+// // SPRUCE GREEN 0F614E
+// // DARK BLUE GREY 0C1423

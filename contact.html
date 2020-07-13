@@ -3,61 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conect Us</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/e4095d1bbe.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="contact-header">
         <nav>
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="blog.html">blog</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="contact.html"><contact/a></li>
+                <li><a href="">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1> Get in touch</h1>
     </header>
-    <div class="contact-container">
-        <aside>
-            <div class="social-icons">
-                <ul>
-                    <li><a href=""></a>f</li>
-                    <li><a href="">i</a></li>
-                    <li><a href="">t</a></li>
-                    <li><a href="">w</a></li>
-                </ul>
+    <main class="contact-main">
+        <section class="contact-container">
+            <div class="contact-title">
+                <h1 class="contact-heading"> Get in touch</h1>
             </div>
-            <div class="info-email">
-                <h2>info@email.com</h2>
-            </div>
-            <div class="address">
-                <p>123045607890</p>
-                <p>123 wueen street west, unit 10</p>
-                <p>toronto, on</p>
-                <p>m5v2d5</p>
-            </div>
-        </aside>
-        <section>
-        </div>
-        <div class="get-in-touch">
-            <div class="get-in-name">
-                <form action="">
-                    <label for="userName" class="visuallyHidden">Name</label>
+            <div class="form-container">
+                <form action="
+                " class="get-in-touch
+                ">
+                <label for="userName" class="visuallyHidden form-name">
                     <input type="text" id="userName" placeholder="Name">
-                    <label for="email" class="visuallyHidden">Email</label>
+                </label>
+                <label for="email" class="visuallyHidden">
                     <input type="email" id="email" placeholder="email">
+                </label>
+
+                <textarea name="specialInstructions" cols="70" rows="15" placeholder="write text here"></textarea>
                 </form>
-            </div>
-            <div class="get-in-textarea">
-                <form action="">
-                    <textarea name="specialInstructions" cols="30" rows="10" placeholder="write text here"></textarea>
-                </form>
-            </div>
             <button type="submit" class="submit2"> submit</button>
-        </div>
-    </section>
+            </div>
+        </section>
+        <section class="side-panel">
+            <aside>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <div class="info-email">
+                    <h2>info@email.com</h2>
+                </div>
+                <div class="address">
+                    <p>123-456-7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, ON</p>
+                    <p>M5V2D5</p>
+                </div>
+            </aside>
+        </section>
+        <!-- <section class="contact-container">
+            <aside>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <div class="info-email">
+                    <h2>info@email.com</h2>
+                </div>
+                <div class="address">
+                    <p>123-456-7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, ON</p>
+                    <p>M5V2D5</p>
+                </div>
+            </aside>
+        </section> -->
+    </main>
     <footer>
         <p><a href="">Copyright &copy; Made at Juno College 2020</a></p>
     </footer>
 </body>
 </html>
+
+<!-- 
+<div class="green-form">
+        <form action="">
+            <label for="userName" class="visuallyHidden">Name</label>
+            <input type="text" id="userName" placeholder="Name">
+            <label for="email" class="visuallyHidden">Email</label>
+            <input type="email" id="email" placeholder="email">
+        </form>
+        <form action="">
+            <textarea name="specialInstructions" cols="30" rows="10" placeholder="write text here"></textarea>
+        </form>
+    <button type="submit" class="submit2"> submit</button>
+</div> -->

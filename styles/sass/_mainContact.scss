@@ -1,0 +1,128 @@
+form,
+.form-container {
+    border: 2px solid #0F614E;
+    background: #0F614E;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 61%;
+    padding: 20px 0;
+    padding-left: 31px;
+    box-shadow: -32px 30px #86E0F9;
+}
+
+.form-name {
+    margin-right: 45px;
+}
+input[type=text],
+input[type=email],
+select {
+    height: 48px;
+    padding: 0 13px;
+    width: 43%;
+    margin: 10px 0;
+    border:0;
+    border-bottom: 2px solid #86E0F9;
+    color: white;
+    background: #0F614E;
+}
+
+textarea {
+    border:0;
+    border: 2px solid #86E0F9;
+    color: white;
+    background: #0F614E;
+    resize: none;
+    margin: 20px 0;
+}
+
+textarea:hover,
+textarea:focus, {
+    border: 2px solid #0C1423;
+}
+
+input[type=text]:hover,
+input[type=email]:hover {
+    border-bottom: 2px solid #0C1423;
+}
+
+button {
+    background: #0C1423;
+    border: 1px solid #0C1423;
+    color: white;
+    width: 90%;
+    height: 45px;
+    text-transform: uppercase;
+}
+
+button:hover,
+button:focus {
+    background: #86E0F9;
+    border: 1 solid #86E0F9;
+    color: #0C1423;
+}
+
+.contact-container {
+    position: relative;
+}
+
+.contact-title,
+.form-container {
+    position: absolute;
+}
+
+.contact-title {
+    top: -380px;
+    left: 390px;
+}
+
+.form-container {
+    top: -272px;
+    right: 99px;
+}
+
+
+
+//
+
+div ul {
+    list-style: none;
+    padding: none;
+    margin:none;
+}
+
+.social-icons ul {
+    display: flex;
+    padding: 0
+}
+
+i {
+    color: white;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.address p{
+    padding: 0;
+    margin: 3px;
+    line-height: 20px;
+}
+
+aside {
+    padding: 98px 0;
+    margin-left: 61px;
+    padding: 197px 0 99px 0;
+
+}
+
+.info-email h2 {
+    font-size: 1.25rem;
+}
+
+
+.side-panel {
+    margin-bottom: 120px;
+    
+}
