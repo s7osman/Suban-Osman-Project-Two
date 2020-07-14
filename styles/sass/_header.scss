@@ -11,7 +11,7 @@ img {
 nav ul {
     display: flex;
     justify-content: flex-end;
-    margin-right: 70px;
+    margin-right: 129px;
 }
 
 nav ul li {
@@ -20,16 +20,17 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 1.25rem;
+    font-size: $body-size;
     letter-spacing: 1px;
 }
 
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
     color: #86E0F9;
 }
 
-header {
+.index-header {
     background-image: url("../assets/header-image.jpg");
     background-position: center;
     background-size: cover;
@@ -38,7 +39,7 @@ header {
     
 }
 
-h1,
+
 a,
 h2,
 h3,
@@ -50,15 +51,22 @@ h4 {
 }
 
 
+// h1 {
+//     font-size: 8.625rem;
+//     line-height: 126px;
+// }
+
 h1 {
-    font-size: 8.625rem;
-    line-height: 126px;
+    @include fontStyle(13.8rem, 126px, 0, white);
+    padding-top: 0;
+    width: 25%;
+    position: absolute;
+    left: 9px;
+    top: 20px;
 }
 
 .index-title {
-    height:10px;
-    padding-top: 31px;
-    width: 34%;
+    width: 28%;
 }
 
 .hero-banner {

@@ -1,0 +1,22 @@
+// Typography 
+
+@mixin fontStyle ($fontSize, $lineH, $lSpace, $tColor) {
+    font-size: $fontSize;
+    line-height: $lineH;
+    letter-spacing: $lSpace;
+    color: $tColor;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@mixin bodyStyle ($fontSize, $lineH, $lSpace, $tColor) {
+    font-size: $fontSize;
+    line-height: $lineH;
+    letter-spacing: $lSpace;
+    color: $tColor;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+

@@ -42,7 +42,7 @@ select {
 
 .get-in-touch textarea:hover,
 .get-in-touch textarea:focus {
-  border: 2px solid #0C1423;
+border: 2px solid #0C1423;
 }
 
 .get-in-touch input[type=text]:hover,
@@ -98,14 +98,14 @@ div ul {
     padding: 0
 }
 
-i {
+.social-icons {
     color: white;
     font-size: 20px;
     padding-right: 25px;
 }
 
-i:hover,
-i:focus {
+.social-icons i:hover,
+.social-icons i:focus {
     color: #86E0F9;
 }
 .info-email h2:hover {
