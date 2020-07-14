@@ -219,3 +219,15 @@
 }
 
 }
+
+@media (max-width: 450px) {
+    .under-the-sea h3,
+    .month-profile-text h3 {
+        font-size: 2.5rem;
+    }
+
+    .month-profile-text h3 {
+        margin-top: 0;
+        margin-left: -56px;
+    }
+}

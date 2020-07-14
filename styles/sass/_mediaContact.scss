@@ -1,0 +1,58 @@
+@media (max-width: 1190px) {
+
+
+    .get-in-touch textarea {
+        width: 90%;
+    }
+
+    .address {
+        width: 17%;
+    }
+}
+
+@media (max-width: 940px) {
+
+    .form-container {
+        position: static;
+        box-shadow: none;
+    }
+
+    .contact-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .side-panel {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .address p {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .contact-aside {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-title {
+        top: -300px;
+        left: 0;
+    }
+    .contact-header nav {
+        display: none;
+    }
+}
+
