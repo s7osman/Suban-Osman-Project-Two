@@ -20,7 +20,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-    color: #86E0F9;
+    color: $light-blue;
 }
 
 .index-header {
@@ -47,7 +47,7 @@ h1 {
     padding-top: 0;
     width: 25%;
     position: absolute;
-    left: 9px;
+    left: 99px;
     top: 20px;
 }
 
@@ -60,9 +60,9 @@ h1 {
 }
 
 .hero-banner img {
-    width: 68%;
+    width: 58%;
     position: absolute;
-    right: -92px;
+    right: 0;
     top: 52px;
 }
 

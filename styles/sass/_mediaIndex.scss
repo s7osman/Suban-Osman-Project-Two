@@ -1,0 +1,221 @@
+// INDEX PAGE MEDIA QUERIES
+
+// HEADER & NAVIGATION SECTION
+
+@media (max-width: 1065px) {
+
+    .hero-banner img {
+        width: 53%;
+        top: 164px;
+    }
+
+    .new-additions-container {
+        padding-bottom: 8px;
+    }
+
+    .new-additions {
+        margin-bottom: 0;
+    }
+
+    .meet-the-real-nemo-image img {
+        top: 118px;
+    }
+
+    .meet-real-nemo-text {
+        margin-top: 0;
+    }
+
+    .meet-real-nemo-text h4 {
+        margin-bottom: 28px;
+    }
+
+}
+
+@media (max-width: 940px) {
+
+    .under-the-sea p {
+        width: 800px;
+    }
+
+    .under-the-sea p {
+        width: 100%;
+    }
+
+
+    .new-additions-container {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: $dark-blue;
+    }
+
+
+    .new-additions-container button {
+        background: $dark-green;
+        border: 2px solid $dark-green;
+        padding: 5px 8px;
+    }
+
+
+    .new-additions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-additions-text,
+    .meet-real-nemo-text {
+        width: 70%;
+    }
+
+    .new-additions-text h4,
+    .meet-real-nemo-text h4 {
+        width: 100%;
+    }
+
+    .new-additions-image,
+    .meet-real-nemo-image{
+        float: none; 
+        width: 100%;
+    }
+
+    .new-additions-image img,
+    .meet-real-nemo-image img {
+        position: static;
+        box-shadow: none;
+        clear: both;
+    }
+
+    .meet-real-nemo-text {
+        margin-bottom: 20px;
+    }
+
+    .meet-real-nemo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:786px){
+
+    h1 {
+        font-size: 8rem;
+    }
+
+
+.index-header h1{
+    width: 80%;
+    margin-top: 140px;
+    color: $light-blue;
+    box-shadow: 10px 10px $dark-green;
+
+}
+
+.hero-banner img {
+    display: none;
+}
+
+    
+    .new-additions-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socials i, 
+    .socials h4,
+    .socials {
+        float: none;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .fas {
+        border: none;
+        background: none;
+        font-size: 4rem;
+        color: $light-blue;
+    }
+
+    .socials p {
+        display: none;
+    }
+
+
+    .month-profile-text p {
+        display: none;
+    }
+
+    .month-profile-text {
+        margin-bottom: 30px;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 8rem;
+    }
+
+
+.index-header h1{
+    width: 70%;
+    margin-top: 140px;
+    color: $light-blue;
+    box-shadow: 5px 5px $dark-green;
+
+}
+
+.under-the-sea h3 {
+    font-size: 3rem;
+    margin: 0 0 50px 0;
+}
+
+.under-the-sea {
+    margin: 20px;
+}
+
+.under-the-sea p {
+    display: none;
+}
+
+
+.new-additions-text p,
+.meet-real-nemo-text p {
+    display: none;
+}
+
+.new-additions-text h4,
+.meet-real-nemo-text h4,
+.new-additions-text button,
+.meet-real-nemo-text button { 
+    margin-bottom: 50px;
+}
+
+.month-profile-text h3 {
+    font-size: 3rem;
+    margin-bottom: 40px;;
+}
+
+.month-profile-image img {
+    box-shadow: none;
+}
+
+.photo-gallery {
+    flex-direction: column;
+}
+
+}

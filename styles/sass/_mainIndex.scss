@@ -105,9 +105,8 @@
 }
 
 .new-additions-container button {
-    // background: $dark-blue;
-    background: #0C1423;
-    border: 2px solid #0c1423;
+    background: $dark-blue;
+    border: 2px solid $dark-blue;
     padding: 5px 8px;
 }
 
@@ -124,7 +123,7 @@
 }
 
 .meet-real-nemo-image img {
-    box-shadow: -37px 36px $light-blue
+    box-shadow: -37px 36px $light-blue;
 }
 
 .new-additions h4,
@@ -144,7 +143,7 @@
 
 .meet-real-nemo-image img {
     position: absolute;
-    top: 92px;
+    top: 146px;
 }
 
 .meet-real-nemo-text p {
@@ -186,7 +185,8 @@
 
 }
 
-.socials i, h4 {
+.socials i
+.socials h4 {
     float: left;
 }
 
