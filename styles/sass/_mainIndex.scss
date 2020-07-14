@@ -5,9 +5,10 @@
 // SPRUCE GREEN 0F614E
 // DARK BLUE GREY 0C1423
 
-.under-the-sea h3,
-.month-profile-text h3 {
-    @include fontStyle (4.2rem, 0, 1px, white);
+// UNDER THE SEA BLOG POST SECTION
+
+.under-the-sea-container {
+    padding-top: 50px;
 }
 
 .under-the-sea {
@@ -19,9 +20,11 @@
     align-items: center;
 }
 
-.under-the-sea-container {
-    padding-top: 50px;
+.under-the-sea h3,
+.month-profile-text h3 {
+    @include fontStyle (4.2rem, 0, 1px, white);
 }
+
 .under-the-sea p {
     width: 934px;
 }
@@ -43,10 +46,11 @@
     padding: 5px 5px;
 
 }
+
+// NEW ADDITIONS AND MEET NEMO SECTION
 .new-additions-container {
     background: $dark-green;
 }
-.clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; } 
 
 .new-additions-image,
 .meet-real-nemo-text {
@@ -58,46 +62,20 @@
     padding-bottom: 35px;
 }
 
-
-.new-additions-image img {
-    box-shadow: 37px 25px $light-blue;
-}
-
-.meet-real-nemo-image img {
-    box-shadow: -37px 36px $light-blue
-}
-
 .new-additions {
     margin-bottom: 35px;
 }
 
-
-.new-additions-text h4 {
-    margin-bottom: 34px;
-}
-
-.new-additions h4,
-.meet-real-nemo-text h4,
-.socials h4 {
-    @include fontStyle(3.2rem, 0, 1px, white);
-}
-
-.meet-real-nemo-text h4 {
-    text-align: right;
-    width: 100%;
+.new-additions-image img {
+    box-shadow: 37px 25px $light-blue;
 }
 
 .new-additions-image{
     position: relative;
 }
 
-.meet-real-nemo-image {
-    position: relative;
-}
-
-.meet-real-nemo-image img {
-    position: absolute;
-    top: 92px;
+.new-additions-text h4 {
+    margin-bottom: 34px;
 }
 
 .new-additions-image img {
@@ -116,27 +94,14 @@
     width: 90%;
 }
 
-.meet-real-nemo-text p {
-    margin-left: 98px;
-    padding-top: 20px;
-
-}
-
 .new-additions-text h4 {
     margin: 0;
 }
-
-
 
 .new-additions-text,
 .meet-real-nemo-image {
     float: right;
     width: 45%;
-}
-
-.meet-real-nemo-text {
-    text-align: right;
-    margin-top: 95px;
 }
 
 .new-additions-container button {
@@ -158,6 +123,43 @@
 
 }
 
+.meet-real-nemo-image img {
+    box-shadow: -37px 36px $light-blue
+}
+
+.new-additions h4,
+.meet-real-nemo-text h4,
+.socials h4 {
+    @include fontStyle(3.2rem, 0, 1px, white);
+}
+
+.meet-real-nemo-text h4 {
+    text-align: right;
+    width: 100%;
+}
+
+.meet-real-nemo-image {
+    position: relative;
+}
+
+.meet-real-nemo-image img {
+    position: absolute;
+    top: 92px;
+}
+
+.meet-real-nemo-text p {
+    margin-left: 98px;
+    padding-top: 20px;
+
+}
+
+.meet-real-nemo-text {
+    text-align: right;
+    margin-top: 95px;
+}
+
+// COMMUNITY SECTION
+
 .fas {
     font-size: $body-size;
     background: $light-blue;
@@ -166,13 +168,12 @@
     border-radius: 50%;
 }
 
-.fas:hover
+.fas:hover,
 .fas:focus {
     background: $dark-blue;
     color: $dark-green;
     border: 10px solid $dark-blue
 }
-
 
 .socials {
     width: 48%;
@@ -202,6 +203,8 @@ p {
     padding-bottom: 50px;
 }
 
+// WHALE BANNER 
+
 .whale-banner {
     background-image: url("../assets/banner.jpg");
     background-position: center;
@@ -210,6 +213,8 @@ p {
     height: 90vh;
     
 }
+
+// THIS MONTH PROFILE SECTION
 
 .profile-container {
     display: flex;
@@ -229,7 +234,6 @@ p {
 
 .month-profile-text h3 {
     margin-top: 37px;
-
 }
 
 .month-profile-image img {
@@ -237,7 +241,6 @@ p {
 }
 
 .month-profile-text button {
-    // background: $dark-blue;
     background: $light-blue;
     border: 2px solid $light-blue;
     padding: 5px 8px;
@@ -247,7 +250,6 @@ p {
     background: #0F614E;
     border: 2px solid #0F614E
 }
-
 
 
 .month-profile-text a {
@@ -267,6 +269,8 @@ p {
 .photo-gallery img {
     width: 93%;
 }
+
+// FOOTER SECTION
 
 footer {
     background: $light-blue ;

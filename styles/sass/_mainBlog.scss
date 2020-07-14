@@ -1,3 +1,8 @@
+// DISCOVERY BLOG
+.discovery-header {
+    @include fontStyle (80rem, 92px, 0, white);
+}
+
 .discovery-container {
     display: flex;
     flex-direction: column;
@@ -12,17 +17,19 @@
 
 .discovery-image img {
     width: 100%;
-    box-shadow: -24px 25px #86E0F9;
+    box-shadow: -24px 25px $light-blue;
 }
 
 .discovery-text {
-    border-left: 5px solid #86E0F9;
-    border-bottom: 5px solid #86E0F9;
+    border-left: 5px solid $light-blue;
+    border-bottom: 5px solid $light-blue;
     width: 42%;
+    padding-left: 30px;
 }
 
 .discovery-text p {
     width: 113%;
+    
 }
 
 .discovery-header,
@@ -33,7 +40,7 @@
 
 .discovery-header {
     top: -403px;
-    right: 412px;
+    right: 511px;
 }
 
 .discovery-image {
@@ -46,13 +53,19 @@
     right: 188px;
 }
 
+article h4 {
+    margin: 0;
+    padding: 0;
+}
+
+// ASIDE CONTAINER 
 
 .whale-container {
     display: flex;
     flex-direction: column;
     padding-top: 60px;
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 475px;
 }
 
 .whale-aside-image {
@@ -69,30 +82,35 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: #0f614e;
+    background: $dark-green;
     height: 700px;
     width: 250px;
     position: absolute;
-    top: -453px;
+    top: -428px;
     left: 182px;
     z-index: -1;
 }
 
 .bottom-info ul {
     margin: 0;
+    padding-left: 24px;
     list-style: circle;
 }
 
 .top-info {
-    margin-bottom: 10px;
+    margin-top: -8px;
 }
 
+.top-info h4 {
+    margin-bottom: 2px
+}
 
-
-.top-info p,
-h4 {
+.top-info p {
     margin: 0;
-    padding: 0;
+}
+
+.bottom-info h4 {
+    margin-bottom: 6px;
 }
 
 .bottom-info {
@@ -100,11 +118,11 @@ h4 {
     flex-direction: column;
 }
 
+// COMMENTARY SECTION 
 .comment-heading {
     position: absolute;
-    top: 1px;
+    top: -29px;
     right: 617px;
-
 }
 
 .commentary {
@@ -141,20 +159,25 @@ h4 {
 .post-comment input[type=text],
 .post-comment input[type=email],
 select {
-    background: #0C1423;
+    background: $dark-blue;
     color: white;
     border: none;
-    border-bottom: 2px solid #86E0F9;
+    border-bottom: 2px solid $light-blue;
     margin-bottom: 10px;
 }
 
 .post-comment button {
-    background: #0f614e;
+    background: $dark-green;
     color: white;
-    border: 2px solid #0f614e;
+    border: 2px solid $dark-green;
 }
 
-
+.post-comment button:hover,
+.post-comment button:focus {
+    background: $light-blue;
+    color: white;
+    border: 2px solid $light-blue;
+}
 
 .post-comment {
     position: absolute;
@@ -163,12 +186,11 @@ select {
     width: 49%;
 }
 
-
 .post-comment textarea {
     margin-top: 10px;
     margin-bottom: 10px;
-    background: #0C1423;
-    border: 2px solid #86E0F9;
+    background: $dark-blue;
+    border: 2px solid $light-blue;
     color: white;
     padding: 10px;
     resize: none;
@@ -178,191 +200,3 @@ select {
     width: 100%;
     height: 27px;
 }
-
-
-
-
-
-
-
-
-// ROBIN EGG BLUE 86E0F9
-// SPRUCE GREEN 0F614E
-// DARK BLUE GREY 0C1423
-
-// aside {
-//     display: flex;
-//     flex-direction: column; 
-// }
-
-// .whale-info {
-//     display: flex;
-//     flex-direction: column;
-//     margin-left: 25px;
-//     background: #0F614E;
-//     width: 65%;
-// }
-// .side-whale-image {
-//     padding-top:50px;
-// }
-
-// .side-whale-image img {
-//     width: 65%;
-//     box-shadow: 25px 100px #0F614E;
-// }
-
-// .bottom-info {
-//     width: 100%;
-//     display: flex;
-//     flex-direction: column;
-// }
-
-// aside p,
-// aside ul,
-// aside h4 {
-//     padding: 0;
-//     margin: 0;
-// }
-
-// .topHalf {
-//     display: flex;
-// }
-
-// article {
-//     display: flex;
-//     flex-direction: column;
-//     width: 84%;
-//     position: relative;
-// }
-
-// .bottom-info ul {
-//     margin-left: 34px;
-// }
-
-
-// .article-image img {
-//     width: 100%;
-//     box-shadow: -17px 25px #86E0F9;
-// }
-
-// .bottom-half {
-//     display: flex;
-//     flex-direction: column;
-// }
-
-// .article-main-text {
-//     display: flex;
-//     flex-direction: column;
-//     border-left: 2px solid #86E0F9;
-//     border-bottom: 2px solid #86E0F9;
-//     margin-left: -17px;
-//     padding-top: 30px;
-// }
-
-// .discovery {
-//     position: absolute;
-//     top: -280px;
-// }
-
-// .topHalf {
-//     padding-bottom: 500px;
-// }
-
-// .comment-container {
-//     display: flex;
-//     flex-direction: column;
-//     margin-top: 26px;
-// }
-
-// .comments {
-//     display: flex;
-//     justify-content: center;
-
-// }
-
-// .comments h4 {
-//     margin-left: 90px;
-// }
-
-// .comment-one {
-//     margin-bottom: 40px;
-// }
-// .comment-one, 
-// .comment-two {
-//     display: flex;
-//     justify-content: flex-end;
-//     margin-left: -124px
-// }
-
-// .comment-text,
-// .comment-text-two {
-//     width: 35%;
-//     margin-left: 25px;
-// }
-
-// .comment-text p,
-// .comment-text-two p{
-//     margin-top: 0;
-// }
-
-// .commenters {
-//     margin-top: 5px;
-// }
-
-// .comment-two {
-//     margin-bottom: 30px;
-// }
-
-// .comment-name {
-//     display: flex;
-//     justify-content: flex-end;
-//     margin-bottom: 15px;
-// }
-
-// .comment-name input {
-//     background-color: #0C1423;
-//     border: none;
-//     border-bottom: 1px solid #86E0F9;
-//     color: white;
-//     margin-left: 5px;
-//     width: 264px;
-// }
-
-// .comment-text-area {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: flex-end;
-// }
-
-// .comment-text-area form {
-//     display: flex;
-//     justify-content: flex-end;
-// }
-
-// textarea {
-//     background: #0C1423;
-//     border: 1px solid #86E0F9;
-//     color: white;
-//     resize: none;
-//     margin-bottom: 10px;
-// }
-
-// .comment-text-area button {
-//     width: 50%;
-//     margin-left: 541px;
-//     background: #0F614E;
-//     border: 1px solid #0F614E;
-//     color: white;
-// }
-
-// .comment-text-area button:hover,
-// .comment-text-area button:focus {
-//     background: #86E0F9;
-//     border: 1px solid #86E0F9;
-// }
-
-
-
-// .comment-container {
-//     margin-bottom: 40px;
-// }
